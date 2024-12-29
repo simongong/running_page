@@ -47,6 +47,10 @@ const LIGHTS_ON =false;
 // richer title for the activity types (like garmin style)
 const RICH_TITLE = false;
 
+// 忽略每个 polyline 的起点和终点的长度（单位：米）。
+const IGNORE_START_END_RANGE = 500
+const IGNORE_BEFORE_SAVING = 1
+
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
